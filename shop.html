@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="css/style.css">
+				<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+				<base href="http://shypko.me/barbershop/">
+				<title>Barbershop - Shop</title>
+		</head>
+		<body>
+				<header>
+						<div class="layout-center-wrapper">
+								<ul class="top-menu">
+										<li><a href="index.html">Главная</a></li>
+										<li><a href="#">Информация</a></li>
+										<li><a href="#">Новости</a></li>
+										<li><a href="price-list.html">Прайс-лист</a></li>
+										<li><a class="active" href="shop.html">Магазин</a></li>
+										<li><a href="#">Контакты</a></li>
+								</ul>
+								<div class="account-menu">
+										<a class="account-menu-enter account-menu-enter-disabled" href="#">Вход</a>
+								</div>
+						</div>
+				</header>
+				<div class="layout-center-wrapper">
+						<div class="login-popup">
+								<a href="#" class="login-popup-close">✕</a>
+								<form class="login-form" action="/auth" method="post">
+										<input class="login-field" type="text" name="login" placeholder="Логин">
+										<input class="password-field" type="password" name="password" placeholder="Пароль">
+										<a class="restore" href="/restore">Я забыл пароль</a>
+										<label><input type="checkbox" name="remember"> Запомните меня</label>
+										<input type="submit" value="Войти">
+								</form>
+						</div>
+						<script src="js/auth.js"></script>
+						<div class="current-page">
+								<div class="title">BARBERSHOP BORODINSKI — Магазин</div>
+								<div class="path"><p><a href="#">Главная</a>  <img src="img/diamond.png">  <a href="#">Магазин</a>  <img src="img/diamond.png">  Средства для ухода</p></div><br>
+						</div>
+						<div class="search-parameters">
+								<div class="manufacturers">
+										<h2>Производители</h2>
+										<ul>
+												<li class="checked"><a href="#">Baxter of California</a></li>
+												<li><a href="#">Mr Natty</a></li>
+												<li class="checked"><a href="#">Suavecito</a></li>
+												<li><a href="#">Malin+Goetz</a></li>
+												<li><a href="#">Murray's</a></li>
+												<li class="checked"><a href="#">American Crew</a></li>
+										<ul>
+								</div>
+								 <div class="groups">
+										<h2>Группы товаров:</h2>
+										<ul>
+												<li><a href="#">Бритвенные принадлежности</a></li>
+												<li class="active"><a href="#">Средства для ухода</a></li>
+												<li><a href="#">Аксессуары</a></li>
+										</ul>
+								</div>
+						</div>
+						<div class="catalog-block">
+								<div class="catalog">
+										<div class="catalog-item">
+												<div class="image"></div>
+												<div class="title">Набор для путешествий Baxter of California</div>
+												<div class="price"><a href="#">2 900 руб.</a></div>
+										</div>
+										<div class="catalog-item">
+												<div class="image"></div>
+												<div class="title">Увлажняющий кондиционер Baxter of California</div>
+												<div class="price"><a href="#">750 руб.</a></div>
+										</div>
+										<div class="catalog-item">
+												<div class="image"></div>
+												<div class="title">Гель для волос Suavecito</div>
+												<div class="price"><a href="#">290 руб.</a></div>
+										</div>
+										<div class="catalog-item">
+												<div class="image"></div>
+												<div class="title">Глина для укладки волос American Crew</div>
+												<div class="price"><a href="#">500 руб.</a></div>
+										</div>
+										<div class="catalog-item">
+												<div class="image"></div>
+												<div class="title">Гель для бритья American Crew</div>
+												<div class="price"><a href="#">300 руб.</a></div>
+										</div>
+										<div class="catalog-item">
+												<div class="image"></div>
+												<div class="title">Набор для бритья Baxter of California</div>
+												<div class="price"><a href="#">3 900 руб.</a></div>
+										</div>
+								</div>
+								<div class="navigation">
+										<ul>
+												<li><a href="#">1</a></li>
+												<li><a href="#">2</a></li>
+												<li><a href="#">3</a></li>
+												<li><a href="#">4</a></li>
+										</ul>
+								</div>
+						</div>
+				</div>
+				<footer>
+						<div class="layout-center-wrapper">
+								<div class="contacts">
+										BARBERSHOP "BORODINSKI"<br>
+										Адрес: г. Москва, ул. Собаки Павлова, д. 13<br>
+										Телефон: +7 (495) 666-02-666
+								</div>
+								<div class="contacts">
+										Давайте дружить!<br>
+										<a class="vk" href="http://vk.com"></a>
+										<a class="fb" href="http://facebook.com"></a>
+										<a class="in" href="http://instagram.com"></a>
+								</div>
+								<div class="contacts">
+										Дизайн сайта:<br>
+										<a class="gl" href="http://glukhanko.ru">Glukhanko.ru</a>
+								</div>
+						</div>
+				</footer>
+		</body>
+</html>
